@@ -268,3 +268,49 @@ p {
     margin:161px 0 0 0;
 }
 /*foter is finished*/
+@media(max-width:900px) {
+.container {
+    display:flex;
+    width:762px;
+    height:355px;
+    flex-direction: column;
+}
+.img {
+    display:none;
+}
+.img-two {
+    display: flex;
+    width:762px;
+    height:355px;
+    justify-content:center;
+}
+.info {
+    margin-top:65px;
+}
+.info-first , .line,.info-second , .button ,p {
+    margin-left:0;
+}
+.line {
+    width:762px;
+}
+.section__one {
+    min-height:245vh;
+}
+.portfolio {
+    margin-top:850px;
+}
+.photo-info {
+    margin-top:890px;
+}
+.photo__item {
+    width:180px;
+    height:180px;
+}
+.photos {
+    margin-top:950px;
+    gap:15px;
+}
+.secondary-info {
+    margin-left:150px;
+}
+}/*tablet*/
