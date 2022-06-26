@@ -223,3 +223,48 @@ p {
     text-transform: uppercase;
 }
 /*mainpart is finished*/
+.footer {
+    display:flex;
+    background-color:var(--second-bg-color);
+    width:100%;
+    height:205px;
+}
+.secondary-info {
+    display:flex;
+    position:absolute;
+    color:var(--main-text-color);
+    margin:37px 0 0 700px; 
+}
+.eclipse {
+    width:94px;
+    height:94px;
+    margin:0 0 0 134px;
+}
+.colum__item {
+    display: flex;
+    flex-direction: column;
+    margin:5px 0 13px 35px;
+}
+.name {
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:6px;
+}
+.phone , .country {
+    font-size:18px;
+    font-weight:400;
+    margin-top:6px;
+}
+.footer-title {
+    display:flex;
+    background-color:rgba(22, 117, 138, 1);
+    width:100%;
+    height:44px;
+    padding:17px 0 0 16px;
+    color:var(--main-text-color);
+    font-size:12px;
+    font-weight:500;
+    justify-content:center;
+    margin:161px 0 0 0;
+}
+/*foter is finished*/
