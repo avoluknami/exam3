@@ -314,3 +314,38 @@ p {
     margin-left:150px;
 }
 }/*tablet*/
+@media(max-width:375px) {
+.container {
+    width:341px;
+    height:877px;
+}
+.section__one {
+    min-height:305vh;
+}
+.img-two {
+    display:none;
+    width:341px;
+    height:355px;
+}
+.img-three {
+    display:flex;
+    width:341px;
+    height:355px;
+}
+.line {
+    width:341px;
+}
+.photo__item {
+    width:165px;
+    height:165px;
+}
+.photos {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+}
+.secondary-info {
+    margin-left:-100px;
+}
+}
+/*mobile*/  
+
